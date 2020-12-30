@@ -1,15 +1,15 @@
-package squareNumbers_test
+package square2numbers_test
 
 import (
 	"testing"
 
-	"github.com/harshit777/squareNumbers"
+	"github.com/harshit777/square2numbers"
 
 	. "github.com/smartystreets/goconvey/convey"
 )
 
 func TestExecute(t *testing.T) {
-	Excecute := squareNumbers.Excecute
+	Excecute := square2numbers.Excecute
 	Convey("Should convert correctly", t, func() {
 		Convey("Small Number should convert correctly",
 			func() {
